@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: crimson;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+.box{
+    padding: 20px;
+}
+.bg-blue{
+    background-color: unset;
+}
+.color-bg{
+    background-color: crimson;
+}
